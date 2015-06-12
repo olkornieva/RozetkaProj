@@ -1,0 +1,31 @@
+CREATE DATABASE ROZETKA CHARACTER SET utf8;
+
+CREATE TABLE BestSellingProduct (
+
+	id int auto_increment primary key,
+
+	name varchar(255) not null,
+
+	price varchar(255) not null,
+
+	scanDate timestamp not null
+
+);
+
+insert into bestsellingproduct
+
+(name, price, scanDate)
+
+values
+
+('hp laptop', '1 377 uah', now());
+
+Install maven http://maven.apache.org/download.cgi
+
+mvn -version
+
+mvn archetype:generate -DgroupId=OlgaKorneva -DartifactId=Rozetka -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn eclipse:clean eclipse:eclipse
+
+mvn package
