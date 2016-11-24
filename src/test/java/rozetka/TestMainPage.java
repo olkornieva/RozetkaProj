@@ -5,7 +5,7 @@ import rozetka_UI.Navigation;
 
 public class TestMainPage {
    
-    public void testRozetka() {
+    public void testRozetka()  throws Exception {
         Navigation.visitMainPage();
         MainPage.goToSmatrphonesPage();
     }
