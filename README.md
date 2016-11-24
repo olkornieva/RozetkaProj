@@ -1,6 +1,6 @@
 # RozetkaProj
 RozetkaProj
-Code is not very good. Project is simple and was made as test task.
+The project is quite old and сode is not very good. Project is simple and was made as test task. I had about 8 hours or something like this to finish it.
 
 1 Сreate DB with appropriate tables. Look at Olga_interview_file
 
