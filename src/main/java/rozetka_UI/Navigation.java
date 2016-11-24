@@ -8,7 +8,8 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class Navigation {
-
+	
+	   System.setProperty("webdriver.gecko.driver", "C:\\geckodriver\\geckodriver.exe");
 	    public static WebDriver driver = new FirefoxDriver();
 
 	    public static void visitMainPage() {
