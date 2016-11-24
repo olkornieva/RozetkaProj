@@ -27,7 +27,7 @@ public class MailService {
 	private static final String host = "smtp.gmail.com";
 	private static final String to = "olyakorneva09@gmail.com";
     private static final String sender = "ironimy@gmail.com";
-    private static final String senderPassword = "18Pro12Psix";
+    private static final String senderPassword = "1";
     
     private static final int intervalSeconds = 10;
     
