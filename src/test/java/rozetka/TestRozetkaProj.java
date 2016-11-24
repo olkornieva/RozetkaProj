@@ -16,7 +16,11 @@ public class TestRozetkaProj {
 
     @Test
     public void testRozetka() throws InterruptedException {
+        try {
         Navigation.visitMainPage();
+            } catch (Exception e) {
+            e.printStackTrace();
+        }
         MainPage.goToSmatrphonesPage();
         Category.visitSmartPhones();
 
